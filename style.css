@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,4 +25,8 @@ body {
     border-radius: 50%;
     color: white;
     cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms ease-in;
 }
